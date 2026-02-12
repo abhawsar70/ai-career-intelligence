@@ -1,3 +1,13 @@
+
+## Web App (Streamlit)
+
+Run the interactive web app:
+
+streamlit run app.py
+
+Then open http://localhost:8501 in your browser.
+
+
 # AI Career Intelligence (Resume–Job Matcher)
 
 CLI tool that compares a resume and job description using NLP (TF-IDF + cosine similarity),
