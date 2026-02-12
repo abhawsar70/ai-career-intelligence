@@ -1,3 +1,9 @@
+import nltk
+nltk.download("punkt")
+nltk.download("stopwords")
+
+
+
 import streamlit as st
 from src.similarity_engine import calculate_match_and_skills
 from src.recommender import generate_recommendations
